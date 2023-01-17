@@ -46,7 +46,7 @@ const Cv = () => {
           <h2 className="display-3 mb-5"><strong><i>Proyectos personales</i></strong></h2>
         </header>
         <dl>
-          <dt><i>Aplicaicón en curso</i></dt>
+          <dt><i>Aplicación en curso</i></dt>
           <dd>React, Node, Express, MongoDB</dd>
           <dt>BuenAnuncio.com</dt>
           <dd>HBS, Node, MongoDB, Express</dd>

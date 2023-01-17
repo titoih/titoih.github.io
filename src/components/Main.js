@@ -20,7 +20,7 @@ const Main = () => {
       url: 'https://quotes15.p.rapidapi.com/quotes/random/',
       params: { language_code: 'es' },
       headers: {
-        'X-RapidAPI-Key': '7427b51ba0msh896b780f9ca2eb4p10453bjsncfda4c5a3192',
+        'X-RapidAPI-Key': process.env.REACT_APP_RAPIDKEY,
         'X-RapidAPI-Host': 'quotes15.p.rapidapi.com'
       }
     }
@@ -40,9 +40,10 @@ const Main = () => {
         <h2 className="display-3 mb-5"><strong><i>Sobre mí</i></strong></h2>
       </header>
       <div className="fs-5 lh-lg">
-        <div>
-          <img className="imgAboutme" style={{}} src={titoIA} alt="Img from me" title="Island!" />
+        <div className="">
+          <img className="imgAboutme m-3" src={titoIA} alt="Img from me" title="Island!" />
         </div>
+        <div className="">
         <p>
           Me llamo Santi, soy <b>desarrollador</b> y <b>marketer</b>. Vivo en una estupenda isla: Tenerife - Canarias.
         </p>
@@ -56,8 +57,9 @@ const Main = () => {
         <p>
           Me gustan: los retos difíciles, conocer personas, ayudar a quien lo solicita y emprender nuevos proyectos.
         </p>
+        </div>
       </div>
-      <div className="card mt-5 w-50">
+      <div className="card mt-5 d-lg-w-75">
         <div className="card-header ">
           Frase del día
         </div>
