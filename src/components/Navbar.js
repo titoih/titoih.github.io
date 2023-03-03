@@ -15,9 +15,11 @@ const Navbar = () => {
           <li className="nav-item item-dark">
             <Link onClick={() => setOpen(false)} className='text-decoration-none' to="/cv"><span className="nav-link dark" style={{ color: 'black' }}><strong>CV</strong> <span className="sr-only" ></span></span></Link>
           </li>
+          {/* not now */}
           {/* <li className="nav-item">
             <Link onClick={() => setOpen(false)}  className='text-decoration-none'  to="/blog"><span className="nav-link" style={{ color: 'black' }}><strong>Blog</strong></span></Link>
           </li> */}
+
           <li className="nav-item">
             <Link onClick={() => setOpen(false)}  className='text-decoration-none'  to="/contact"><span className="nav-link" style={{ color: 'black' }}><strong>Contact</strong></span></Link>
           </li>
