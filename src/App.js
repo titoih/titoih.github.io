@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import Blog from "./components/Blog";
+// import Blog from "./components/Blog";
 import Cv from "./components/Cv";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
