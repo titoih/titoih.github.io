@@ -8,8 +8,7 @@ const Main = () => {
     content: 'loading...',
     author: 'loading'
   })
-  // const [toggle, setToogle] = false
-
+  
   useEffect(() => {
     test()
   }, []);

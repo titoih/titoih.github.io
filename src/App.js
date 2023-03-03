@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/cv' element={<Cv />} />
-          <Route path='/blog' element={<Blog />} />
+          {/* <Route path='/blog' element={<Blog />} /> */}
           <Route path='/contact' element={<Form />} />
         </Routes>
       </section>
