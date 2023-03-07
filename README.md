@@ -1,2 +1,0 @@
-# titoih.github.io
-resume
